@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools", "wheel", "numpy>=1.1"]
+
+[project]
+name = "pygsvd"
+version = "0.0.2"
+authors = [{name = "Benjamin Naecker",email="bnaecker@fastmail.com"}]
+dependencies = [
+	"numpy >= 1.1",
+]
